@@ -1,0 +1,60 @@
+html, body {
+   min-height: 100%;
+}
+
+#container, #content {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#intro-content, #portfolio-content, #follow-me-content {
+	width:70%;
+	margin:auto;
+}
+
+#intro-content {
+	background-color: #fff;
+	padding: 10px 20px;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+li {
+	display: inline;
+	padding: 3px 7px 2px;
+}
+
+a {
+	color:#000;
+}
+
+#intro {
+	padding: 20px 0px 20px;
+	height:100%;
+	min-height: 500px;
+	text-align: center;
+	background-color: #fff;
+	background-image: url('../img/background-business-communication-317371.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position-y: center;
+}
+
+
+#portfolio {
+	height:100%;
+	min-height: 150px;
+	background-color: #e4d5e1;
+}
+
+#follow-me {
+	height:100%;
+	min-height: 150px;
+	background-color: #e8e8e8;
+}
